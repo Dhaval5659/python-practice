@@ -19,3 +19,11 @@ print(thistuple)
 y = ("orange",)
 thistuple += y
 print(thistuple)
+
+a = list(thistuple)
+a.remove("orange")
+thistuple=tuple(a)
+print(thistuple)
+
+# del thistuple  -> to delete tuple
+
